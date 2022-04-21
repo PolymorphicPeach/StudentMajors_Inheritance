@@ -8,9 +8,11 @@ using std::cout;
 using std::endl;
 
 
-// These only differ in "Major"
+// These only differ in "Major:" section, but it demonstrates how child methods can override a parent
+// method of the same name
 
 
+// Student is actually constructed first even though the argument is passed into the IT constructor
 IT::IT(string name) : Student(name){
     
 }

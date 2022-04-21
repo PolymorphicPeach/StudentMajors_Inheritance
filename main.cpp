@@ -1,3 +1,10 @@
+// Author: Matthew Peach
+// Program Status: Complete
+// Description:
+//    Just a simple program to practice public inheritance and function overriding 
+// in child classes. Each subclass of Student calls a different displayInfo() function.
+// The base class also has its own displayInfo() function unique to itself.
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
