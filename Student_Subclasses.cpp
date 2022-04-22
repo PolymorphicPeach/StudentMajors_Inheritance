@@ -19,11 +19,11 @@ IT::IT(string name) : Student(name){
 
 void IT::displayInfo(){
         cout << "=================================" << endl
-         << "Student Number: " << studentNum << endl
-         << "Name: " << name << endl
+         << "Student Number: " << getStudentNum() << endl
+         << "Name: " << getName() << endl
          << "Major: IT" << endl
          << endl
-         << "GPA: " << GPA << endl
+         << "GPA: " << getGPA() << endl
          << "=================================" << endl;
 }
 
@@ -34,11 +34,11 @@ Nursing::Nursing(string name) : Student(name){
 
 void Nursing::displayInfo(){
         cout << "=================================" << endl
-         << "Student Number: " << studentNum << endl
-         << "Name: " << name << endl
+         << "Student Number: " << getStudentNum() << endl
+         << "Name: " << getName() << endl
          << "Major: Nursing" << endl
          << endl
-         << "GPA: " << GPA << endl
+         << "GPA: " << getGPA() << endl
          << "=================================" << endl;
 }
 
@@ -49,11 +49,11 @@ Business::Business(string name) : Student(name){
 
 void Business::displayInfo(){
         cout << "=================================" << endl
-         << "Student Number: " << studentNum << endl
-         << "Name: " << name << endl
+         << "Student Number: " << getStudentNum() << endl
+         << "Name: " << getName() << endl
          << "Major: Business" << endl
          << endl
-         << "GPA: " << GPA << endl
+         << "GPA: " << getGPA() << endl
          << "=================================" << endl;
 }
 
@@ -64,10 +64,10 @@ Government::Government(string name) : Student(name){
 
 void Government::displayInfo(){
         cout << "=================================" << endl
-         << "Student Number: " << studentNum << endl
-         << "Name: " << name << endl
+         << "Student Number: " << getStudentNum() << endl
+         << "Name: " << getName() << endl
          << "Major: Government" << endl
          << endl
-         << "GPA: " << GPA << endl
+         << "GPA: " << getGPA() << endl
          << "=================================" << endl;
 }

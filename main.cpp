@@ -1,9 +1,10 @@
 // Author: Matthew Peach
 // Program Status: Complete
 // Description:
-//    Just a simple program to practice public inheritance and function overriding 
-// in child classes. Each subclass of Student calls a different displayInfo() function.
-// The base class also has its own displayInfo() function unique to itself.
+//    Simple program to practice public inheritance and function overriding 
+// in child classes. Each child of Student calls a different displayInfo() function.
+// The base class also has its own displayInfo() function unique to itself. The children
+// can still call the public getter functions inherited from Student.
 
 #include <iostream>
 #include <cstdlib>
@@ -19,7 +20,7 @@ using std::string;
 
 
 int main(){
-   srand(time(0)); // Setting random seedfor GPA
+   srand(time(0)); // Setting random seed for GPA
    
    
    Student *ptr1 = new Student("Priyanka");

@@ -19,13 +19,26 @@ Student::Student(std::string name){
     this->studentNum = numStudents;
 }
 
+double Student::getGPA(){
+    return GPA;
+}
+
+string Student::getName(){
+    return name;
+}
+
+int Student::getStudentNum(){
+    return studentNum;
+}
+
+
 void Student::displayInfo(){
     cout << "=================================" << endl
-         << "Student Number: " << studentNum << endl
-         << "Name: " << name << endl
+         << "Student Number: " << getStudentNum() << endl
+         << "Name: " << getName() << endl
          << "Major: Undecided" << endl
          << endl
-         << "GPA: " << GPA << endl
+         << "GPA: " << getGPA() << endl
          << "=================================" << endl;
 }
 
